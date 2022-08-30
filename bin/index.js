@@ -32,6 +32,7 @@ var main = function () {
             var commitMessage = "".concat(value, ": ").concat(inputMessage);
             readInterface.close();
             exec("git commit -m \"".concat(commitMessage, "\""), function (err, stdout, stderr) {
+                console.log('commited.');
                 return;
             });
         });

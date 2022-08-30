@@ -37,6 +37,7 @@ const main = (): void => {
         const commitMessage = `${value}: ${inputMessage}`;
         readInterface.close();
         exec(`git commit -m \"${commitMessage}\"`, (err: any, stdout: any, stderr: any) => {
+          console.log('commited.');
           return;
         });
       }
