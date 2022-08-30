@@ -1,0 +1,27 @@
+{
+  "name": "comz",
+  "version": "1.0.0",
+  "description": "A tool to quickly create a commit messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "comz": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aose-yuu/comz.git"
+  },
+  "author": "aose-yuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aose-yuu/comz/issues"
+  },
+  "homepage": "https://github.com/aose-yuu/comz#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "cli-select-2": "^2.0.0",
+    "typescript": "^4.8.2"
+  }
+}
